@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/shop.css" />
+    <link rel="stylesheet" href="CSS/about.css" />
+    <link rel="stylesheet" href="CSS/blogs.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <title>Tech Center-Shop</title>
+</head>
+
+<body class="home">
+    <!-- Start Header Section -->
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="Images/logo.png" alt="" />
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation">
+          <i class="uil uil-times-circle"></i>
+        </button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-montserrat">login</p>
+            <i class="uil uil-search"></i>
+            <i id="cart-icon" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+            <div id="cart-box" data-visible="false" class="cart-box">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class="uil uil-times"></i>
+                </div>
+                <div class="cart bold-800 flex">
+                    <i class="uil uil-shopping-cart"></i>
+                    <p>Cart Is Empty</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-open-btn">
+            <i class="uil uil-align-right"></i>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- ========>>>>>> Start Shop Section <<<<<<======== -->
+
+    <!--Start Shop Feature Section-->
+    <section class="shop-feature">
+        <div>
+            <p>Home <span aria-haspopup="true"> > </span>Product</p>
+        </div>
+        <h2>Our Products</h2>
+    </section>
+    <!--End Shop Feature Section-->
+    <!-- start section 2 -->
+    <main class="shop-main-container">
+        <div>
+            <div class="shop-title">
+                <div>
+                    <h2>Shop</h2>
+                    <p>Showing 1-9 of 10 results</p>
+                </div>
+                <div>
+                    <select name="text" class="select">
+                     <option value="text">Default Sorting</option>
+                     <option value="text">Sort By Popularity</option>
+                     <option value="text">Sort By Rating</option>
+                     <option value="text">Sort By Latest</option>
+                     <option value="text">Sort By Price</option>
+                     <option value="text">Sort By Low To High</option>
+                     <option value="text">Sort By High To Low</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Shop Product -->
+            <section class="shop-product">
+                <div class="product-list">
+                    <img src="Images/shop-product-01.jpg" alt="">
+                    <p>HP 15-inch Laptop</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 549.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-02.jpg" alt="">
+                    <p>Panasonic 4K Camera</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 799.00</p>
+                    </div>
+
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-03.jpg" alt="">
+                    <p>NexiGo Playstation 5 Digital Edition</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 815.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-04.jpg" alt="">
+                    <p>EZVIZ Security WiFi Camera 1080p</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 199.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-05.jpg" alt="">
+                    <p>NUBWO G06 Wireless Gaming Headset</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 95.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-06.jpg" alt="">
+                    <p>Apple iPad Air</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 399.00</p>
+                    </div>
+
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-07.jpg" alt="">
+                    <p>Dell XPS Core i7-1195G7</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 1.549.00</p>
+                    </div>
+
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-08.jpg" alt="">
+                    <p>ASTRO Gaming Wireless Headset</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 119.00</p>
+                    </div>
+
+                </div>
+
+                <div class="product-list">
+                    <img src="Images/shop-product-09.jpg" alt="">
+                    <p>PlayStation 4 Slim 1TB Limited Edition</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 395.00</p>
+                    </div>
+
+                </div>
+                <div class="product-list">
+                    <img src="Images/Product-01.jpg" alt="">
+                    <p>Apple Watch Series 3</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 399.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="product-list">
+                    <img src="Images/Product-06.jpg" alt="">
+                    <p>Hybrid Active Noise Cancelling Wireless Earbuds</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 45.00</p>
+                    </div>
+                    <!-- Pop Up -->
+                    <div class="pop-up">
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="product-list">
+                    <img src="Images/Product-08.jpg" alt="">
+                    <p>Drone DJI Mavic Air 2 Fly More Combo</p>
+                    <div class="shop-btn">
+                        <button class="cart-btn">Add To Cart</button>
+                        <p>$ 395.00</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <!-- Side Bar Section -->
+        <section>
+            <div class="sidebar-search text-black bg-gray">
+                <input type="text" placeholder="Search Here">
+                <div><i class="uil bg-red text-white uil-search"></i></div>
+            </div>
+
+            <aside class="sidebar-category">
+                <div class="category-list">
+                    <h3>Product Categories</h3>
+                    <i id="arrow" data-category="false" class="uil uil-angle-right"></i>
+                </div>
+
+                <div class="shop-category-list">
+                    <ul id="side-nav" class="side-nav" data-category="false">
+                        <li>
+                            <a href="">Earphones</a>
+                        </li>
+                        <li>
+                            <a href="">Gedgets</a>
+                        </li>
+                        <li>
+                            <a href="">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="">Speaers</a>
+                        </li>
+                        <li>
+                            <a href="">Uncategorized</a>
+                        </li>
+                        <li>
+                            <a href="">Gifts</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <!-- End section 2 -->
+
+
+
+
+
+
+    <!-- ========>>>>>> End Shop Section <<<<<<======== -->
+    <!-- Start Brands -->
+    <section class="brands">
+        <div>
+            <img src="Images/brand-01.png" alt="">
+        </div>
+        <div>
+            <img src="Images/brand-02.png" alt="">
+        </div>
+        <div>
+            <img src="Images/brand-03.png" alt="">
+        </div>
+        <div>
+            <img src="Images/brand-04.png" alt="">
+        </div>
+        <div>
+            <img src="Images/brand-05.png" alt="">
+        </div>
+    </section>
+    <!-- End Brands -->
+    <!-- Start Footer -->
+    <section class="footer">
+        <div class="footer-logo">
+            <img src="Images/logo.png" alt="">
+            <p> There Are Many variations passages of Lorem ipsum dolor sit amet. the majority have suffered alteration</p>
+            <div class="social-media">
+                <i class="uil uil-facebook"></i>
+                <i class="uil uil-instagram"></i>
+                <i class="uil uil-twitter"></i>
+                <i class="uil uil-linkedin"></i>
+            </div>
+        </div>
+
+        <div class="footer-menu">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="blogs.html">Blogs</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>+9 054 345 6789 <br> Gulnihal Sokak 15/A, Istanbul - 750D</p>
+        </div>
+
+        <div class="emails">
+            <h3>Subscribe To Our Email</h3>
+            <p>For Latest News & Updates</p>
+
+            <input type="email" placeholder="Enter Your Email">
+            <button class="large-btn">Subscribe</button>
+        </div>
+        </div>
+    </section>
+
+    <!-- End Footer -->
+    <!-- Start Copyright -->
+    <section class="copyright">
+        <p class="copy">&COPY; 2022 TechCenter. All Rights Reserved</p>
+        <p class="privacy">Privacy Policy . Term Condition</p>
+    </section>
+
+    <!-- End Copyright -->
+
+    <script src="JS/main.js"></script>
+    <script src="JS/shop.js"></script>
+
+</body>
+
+</html>
+
+</html>
